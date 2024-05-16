@@ -1,0 +1,31 @@
+GET http://localhost:5230/recipes
+
+###
+GET http://localhost:5230/recipes/1
+
+###
+POST http://localhost:5230/recipes
+Content-Type: application/json
+
+{
+    "Name": "Tacos Al Pastor",
+    "CuisineId": 4,
+    "CookTime": 35,
+    "Ingredients": "Tacos, al, pastor",
+    "Description": "delicious"
+}
+
+###
+PUT http://localhost:5230/recipes/1
+Content-Type: application/json
+
+{
+    "Name": "Spaghetti Carbonara",
+    "CuisineId": 1,
+    "CookTime": 20,
+    "Ingredients": "Pasta, carbonara",
+    "Description": "delicious"
+}
+
+###
+DELETE http://localhost:5230/recipes/1

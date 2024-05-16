@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "e6PBxU32D5lLcq6AORN78oWeKbdu014W9Vtnj0zUlBU=",
+  "Source": "RecipeLibrary.Api",
+  "BasePath": "_content/RecipeLibrary.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
